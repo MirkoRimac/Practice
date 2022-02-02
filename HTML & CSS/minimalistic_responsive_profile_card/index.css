@@ -1,0 +1,100 @@
+* {
+  background-color: rgb(201, 201, 201);
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.box {
+  width: 400px;
+  margin: 150px auto 0;
+  background-color: #fff;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.141);
+  color: #444;
+  text-align: center;
+  font-size: 16px;
+}
+
+.box .card-header {
+  position: relative;
+  height: 48px;
+}
+
+.box .card-header .pbPic {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 6px solid #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.box .card-body {
+  padding: 10px 50px;
+}
+
+.box .card-body .name {
+  font-size: 20px;
+  font: 600;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+}
+
+.box .card-body .email {
+  font-size: 13px;
+  color: #777;
+  margin: 5px 0 0;
+}
+
+.box .card-body .location {
+  font-weight: 500;
+  margin: 10px 0 0;
+}
+
+.box .card-body .desc {
+  margin: 10px 0 0;
+  line-height: 24px;
+}
+
+.box .fa {
+  font-size: 20px;
+  margin: 10px 7px 0;
+}
+
+.box .fa-facebook {
+  color: #3b5999;
+}
+
+.box .fa-instagram {
+  color: #41779f;
+}
+
+.box .fa-google {
+  color: #e36e60;
+}
+
+.box .card-footer {
+  display: table;
+  width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  .box {
+    width: 96%;
+  }
+
+  .box .card-body {
+    padding: 10px 20px;
+  }
+
+  .box .card-footer {
+    padding: 0 10px;
+  }
+}
