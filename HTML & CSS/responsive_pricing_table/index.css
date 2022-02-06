@@ -1,0 +1,153 @@
+body {
+  background: #ddd;
+}
+
+.pricing-area {
+  margin-top: 25px;
+}
+
+.single-pricing {
+  position: relative;
+  text-align: center;
+  background: #262626;
+  color: #fff;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.head-text {
+  background: transparent;
+  border-bottom: none;
+  padding: 15px 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.head-text h3 {
+  font-family: poppins;
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+.price-area .price-area span {
+  font-weight: 600;
+}
+
+.price-area {
+  position: relative;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.price-area span.duration {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+  text-align: center;
+  color: #888;
+  letter-spacing: 1px;
+  color: #999;
+  margin: 20px 0 0 3px;
+}
+
+.price-area:after,
+.feature-area {
+  border: none;
+  font-family: poppins;
+}
+
+.feature-area ul {
+  margin: 0;
+  padding: 15px 0;
+  list-style: none;
+}
+
+.feature-area li {
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.btn-area {
+  padding: 15px 30px;
+}
+
+.btn-area a {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+  white-space: nowrap;
+  margin: 5px;
+  padding: 0 22px;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  background: #1abc9c;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-area:hover {
+  opacity: 90%;
+}
+
+.btn-area:active {
+  opacity: 80%;
+}
+
+.label-area {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  text-align: center;
+  border-top-right-radius: 3px;
+  background: #ef4368;
+}
+
+.label-area span {
+  position: absolute;
+  top: 22px;
+  right: 3px;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  font-weight: 700;
+  font-weight: 700;
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.label-area:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 80px 0 0 80px;
+  border-color: transparent transparent transparent #262626;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 20px;
+  }
+
+  .single-pricing {
+    margin-bottom: 30px;
+  }
+}
