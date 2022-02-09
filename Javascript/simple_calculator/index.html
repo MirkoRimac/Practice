@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Simple Calculator</h2>
+
+      <input type="text" name="num-one" id="num-one" />
+      <input type="text" name="num-two" id="num-two" />
+      <br /><br />
+
+      <input type="radio" name="sign-area" id="box1" value="add" checked /><b
+        >+</b
+      >
+      <input
+        type="radio"
+        name="sign-area"
+        id="box2"
+        value="substract"
+        checked
+      /><b>-</b>
+      <input
+        type="radio"
+        name="sign-area"
+        id="box3"
+        value="multiply"
+        checked
+      /><b>*</b>
+      <input type="radio" name="sign-area" id="box4" value="divide" checked /><b
+        >/</b
+      >
+      <br />
+
+      <button type="button" onclick="outcome()">Calculate</button>
+
+      <h1 id="resultArea"></h1>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
